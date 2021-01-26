@@ -5,7 +5,7 @@
 📍 npm start 
 
 <div style="display:"flex">
-<img width="500" alt="Ekran Resmi 2021-01-26 14 17 33" src="https://user-images.githubusercontent.com/50197477/105838600-58618b00-5fe1-11eb-8610-54f0bea6aef0.png">
+<img  width="500" alt="Ekran Resmi 2021-01-26 14 17 33" src="https://user-images.githubusercontent.com/50197477/105838600-58618b00-5fe1-11eb-8610-54f0bea6aef0.png">
 <div/>
 
 
