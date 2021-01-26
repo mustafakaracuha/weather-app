@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../assests/layout/SFProDisplay-Regular.woff2') format('woff2'),
+      url('../assests/layout/SFProDisplay-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  background: rgb(11 126 160);
+}
+
+.app{
+width: 500px;
+height: 700px;
+background: rgb(255, 255, 255);
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+margin: auto;
+border-radius: 20px;
+box-shadow: 0 0 40px -15px rgb(0 0 0 / 70%);
+overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 40%;
+  background: rgb(35, 167, 207);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+
+.header:hover {
+  background: rgb(32, 155, 192);
+}
+
+.header .date{
+  color: white;
+  margin-left: 4px;
+}
+
+
+.header .cloud {
+  color:rgb(23, 124, 155);
+float: right;
+margin-top: -55px;
+opacity: 0.4;
+  animation: shake-horizontal 30s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}
+
+.header h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 300 !important;
+  margin-top: 30px;
+}
+
+.header h3 {
+  color: white;
+  font-size: 85px;
+  font-weight: 300 !important;
+}
+
+
+.header h4 {
+color: rgb(20, 93, 116);
+margin-top: 10px;
+font-weight: 300 !important;
+}
+
+
+.header .degree {
+  color: white;
+  font-size: 75px;
+  font-weight: 300 !important;
+  z-index: 9;
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.app .weatherTitle {
+  margin-left: 15px;
+  margin-top: 15px;
+color: rgb(148, 148, 148);
+font-weight: 300 !important;
+}
+
+.daysContainer {
+  width: 100%;
+  height: 400px;
+padding:10px;
+overflow: scroll ;
+border: none !important;
+outline: none !important;
+}
+
+.daysContainer .days {
+  width: 100%;
+  height: 100px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 20px -12px rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  justify-content: clear ;
+display: flex;
+}
+
+.daysContainer .days:hover {
+  box-shadow: 0px 10px 21px -13px rgb(0, 0, 0);
+}
+
+.days h3 {
+  color: rgb(170, 170, 170);
+  font-weight: 300 !important;
+  margin-left: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 1px;
+  color: white;
+}
