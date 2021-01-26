@@ -1,4 +1,4 @@
-# Weather App in React Js
+# Weather App in React Js UI Design
 
 📍 npm install 
 
